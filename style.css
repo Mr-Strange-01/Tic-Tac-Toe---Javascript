@@ -1,0 +1,55 @@
+.header {
+    background: rgb(15, 59, 59);
+    width: 100%;
+    height: 55px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    width: 500px;
+    height: 500px;
+}
+
+.left {
+    width: 500px;
+    height: 500px;
+    /* background-image: url('images/pngwing.com.png') ;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; */
+}
+
+.boxes {
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(130, 105, 170);
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: rgb(77, 187, 214);
+    cursor: pointer;
+}
+
+.left,
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
